@@ -12,9 +12,17 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 
 ## Estructura del Repositorio
 - `datos/`: Carpeta que contiene los archivos de datos como `classes.csv`, `columnas_names.txt`, y `gene_expression.csv`.
+-  `VIDEOS MÉTODOS/`: Carpeta con presentación en vídeo de gráficos obtenidos en los estudio de ML no supervisados
 - `scripts/`: Códigos fuente en Python para el análisis de datos y la implementación de algoritmos de machine learning.
 - `README.md`: Información general sobre el proyecto, estructura, y guía de inicio.
 - `LICENSE`: Detalles de la licencia del proyecto.
+
+  SCRIPTS DE ANÁLISIS DE DATOS
+-`comp_longitud.py`: Código en Python para comparar tamaños de archivos, y ayudar a montar el DataFrame
+-`estudio.py`: Código en Python que ¨monta en DF¨ con los archivos de la carpeta `datos/` y realiza el análisis con Machine Learning, supervisado y no supervisado
+-`EXPLICACION ML NO SUPERVISADO.md`: Explicación de los métodos utilizados, y análisis de resultados obtenidos
+-`EXPLICACION ML SUPERVISADO.md`: Explicación de los métodos utilizados, y análisis de resultados obtenidos
+  
 
 ## Configuración del Entorno
 Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias listadas en `requirements.txt`.
