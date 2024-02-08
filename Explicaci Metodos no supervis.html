@@ -1,0 +1,41 @@
+# Creo un archivo HTML que incluye la interpretación en Markdown y las imágenes de los gráficos de métodos no supervisados
+
+html_content = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Aprendizaje No Supervisado</title>
+</head>
+<body>
+    <h1>Interpretación de los Resultados de Aprendizaje No Supervisado</h1>
+    <p>Como grupo de trabajo, hemos aplicado métodos de aprendizaje no supervisado para entender mejor la estructura subyacente de nuestro conjunto de datos genómicos. Los resultados obtenidos son sumamente informativos:</p>
+
+    <h2>PCA (Análisis de Componentes Principales)</h2>
+    <p>El PCA nos permitió reducir la dimensionalidad de nuestro conjunto de datos, resaltando las direcciones de máxima varianza. Los clústeres observados en el gráfico de PCA indican diferencias significativas en la expresión genética entre los grupos, lo cual es evidente por la separación espacial de los puntos.</p>
+    <img src="mi_PCA.png" alt="PCA Resultados con Clusters K-Means">
+
+    <h2>t-SNE (t-Distributed Stochastic Neighbor Embedding)</h2>
+    <p>El t-SNE, al conservar la estructura local de los datos, ha revelado agrupaciones naturales que no eran tan evidentes con el PCA. Esto sugiere que ciertas muestras comparten características genéticas más cercanas entre sí en un espacio multidimensional complejo.</p>
+    <img src="mi_t-SNE.png" alt="t-SNE Resultados con Clusters K-Means">
+
+    <h2>Clustering K-Means</h2>
+    <p>Al aplicar K-Means, hemos identificado grupos que se correlacionan con diferencias fenotípicas o tratamientos específicos dentro de nuestras muestras. Los grupos formados por K-Means son coherentes con la variabilidad observada en las dos primeras componentes principales del PCA.</p>
+    <img src="mi_PCAreduc.png" alt="Clústeres K-Means en PCA reducido">
+
+    <h2>Clustering Jerárquico Aglomerativo</h2>
+    <p>Los clústeres jerárquicos aglomerativos, visualizados en el espacio de PCA reducido, destacan una jerarquía de agrupaciones que podrían corresponder a subtipos genéticos distintos dentro de las muestras analizadas.</p>
+    <img src="mi_PCA2reduc.png" alt="Clústeres Jerárquicos Aglomerativos en PCA 2 reducido">
+
+    <p>Estos métodos nos han proporcionado una visión más clara de la complejidad y la heterogeneidad de los datos genómicos, facilitando la identificación de patrones que podrían ser cruciales para investigaciones futuras.</p>
+</body>
+</html>
+"""
+
+# Guardar el contenido en un archivo HTML
+html_file_path = '/mnt/data/analysis_results.html'
+with open(html_file_path, 'w') as file:
+    file.write(html_content)
+
+html_file_path

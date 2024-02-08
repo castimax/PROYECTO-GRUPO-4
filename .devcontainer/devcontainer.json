@@ -1,0 +1,24 @@
+{
+  "name": "Mi Proyecto de Análisis de Datos",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "VARIANT": "3.8"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [
+    8888
+  ],
+  "remoteUser": "vscode"
+}
+
+  

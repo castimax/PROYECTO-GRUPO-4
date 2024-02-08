@@ -21,5 +21,5 @@ Se recomienda crear un entorno virtual de Python e instalar las dependencias nec
 
 ```bash
 python -m venv venv
-source venv/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
