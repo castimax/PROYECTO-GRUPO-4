@@ -21,9 +21,13 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 
 - `comp_longitud.py`: Código en Python para comparar tamaños de archivos, y ayudar a montar el DataFrame.
 - `estudio.py`: Código en Python que ¨monta en DF¨ con los archivos de la carpeta `datos/` y realiza el análisis con Machine Learning, supervisado y no supervisado.
+
+
+## DOCUMENTOS DE RESULTADOS EN MARDOWN Y EN HTML
 - `EXPLICACION ML NO SUPERVISADO.md`: Explicación de los métodos utilizados, y análisis de resultados obtenidos.
 - `EXPLICACION ML SUPERVISADO.md`: Explicación de los métodos utilizados, y análisis de resultados obtenidos.
-  
+- `Explicaci Métodos no supervisa.html`: Explicación de los métodos utilizados con los gráficos obtenidos en cada estudio, y análisis de resultados.
+- `resultado anal de clusteres.html`: Explicación de los métodos Análisis de Clústeres usados, con los gráficos obtenidos.
 
 ## Configuración del Entorno
 Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias listadas en `requirements.txt`.
