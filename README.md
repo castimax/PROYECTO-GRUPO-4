@@ -20,7 +20,7 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 ## SCRIPTS DE ANÁLISIS DE DATOS
 
 - `comp_longitud.py`: Código en Python para comparar tamaños de archivos, y ayudar a montar el DataFrame.
-- `estudio.py`: Código en Python que ¨monta en DF¨ con los archivos de la carpeta `datos/` y realiza el análisis con Machine Learning, supervisado y no supervisado.
+- `estudio2.py`: Código en Python que ¨monta en DF¨ con los archivos de la carpeta `datos/` y realiza el análisis con Machine Learning, supervisado y no supervisado.
 
 
 ## DOCUMENTOS DE RESULTADOS EN MARDOWN Y EN HTML
