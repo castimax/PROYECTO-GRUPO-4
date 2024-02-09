@@ -2,36 +2,152 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRABAJO EN PYTHON GRUPO 4, ML SUPERVISADO Y NO SUPERVISADO</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ffc107 solid 4px;
+        }
+        header a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header h1 {
+            float: left;
+        }
+        header ul {
+            float: right;
+            margin-top: 15px;
+        }
+        header::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 0;
+            display: inline-block;
+        }
+        nav a:hover {
+            color: #fff;
+            background-color: #333;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #ffc107;
+            color: #333;
+        }
+        code {
+            background: #333;
+            color: #fff;
+            padding: 2px 6px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Análisis de Datos Biológicos con Machine Learning</h1>
-    <p>Este proyecto se centra en el análisis de un conjunto de datos biológicos utilizando técnicas de machine learning supervisadas y no supervisadas.</p>
-    
-    <h2>Documentos de Resultados</h2>
-    <ul>
-        <li><a href="EXPLICACION ML NO SUPERVISADO.md">Análisis ML No Supervisado en MD</a></li>
-        <li><a href="EXPLICACION ML SUPERVISADO.md">Análisis ML Supervisado en MD</a></li>
-        <li><a href="Explicaci Metodos no supervis.html">Informe gráfico Métodos No Supervisados en html</a></li>
-        <li><a href="resultado anal de clusteres.html">Informe gráfico de Análisis de Clústeres</a></li>
-        <li><a href="analisis_modelos_supervisados_y_resultados.html">Informe Análisis y Matrices de confusión</a></li>
-    </ul>
+    <header>
+        <div class="container">
+            <h1>Grupo 4: ML Supervisado y No Supervisado</h1>
+            <nav>
+                <a href="#resultados">Resultados</a>
+                <a href="#scripts">Scripts</a>
+                <a href="#estructura">Estructura</a>
+                <a href="#configuracion">Configuración</a>
+            </nav>
+        </div>
+    </header>
 
+    <section id="introduccion" class="container">
+        <h2>Análisis de Datos Biológicos con Machine Learning</h2>
+        <p>Este proyecto se centra en el análisis de un conjunto de datos biológicos utilizando técnicas de machine learning supervisadas y no supervisadas.</p>
+    </section>
+
+    <section id="resultados" class="container">
+        <h2>Documentos de Resultados</h2>
+        <ul>
+            <li><a href="EXPLICACION ML NO SUPERVISADO.md" class="button">Análisis ML No Supervisado en MD</a></li>
+            <li><a href="EXPLICACION ML SUPERVISADO.md" class="button">Análisis ML Supervisado en MD</a></li>
+            <li><a href="Explicaci Metodos no supervis.html" class="button">Informe gráfico Métodos No Supervisados en html</a></li>
+            <li><a href="resultado anal de clusteres.html" class="button">Informe gráfico de Análisis de Clústeres</a></li>
+            <li><a href="analisis_modelos_supervisados_y_resultados.html" class="button">Informe Análisis y Matrices de confus
+                    ión</a></li>
+</ul>
+    </section>
+    <section id="scripts" class="container">
     <h2>Scripts de Análisis de Datos</h2>
     <ul>
-        <li><a href="comp_longitud.py">comp_longitud.py: Comparación de Tamaños de Archivos</a></li>
-        <li><a href="estudio2.py">estudio2.py: Montaje en DataFrame y Análisis ML</a></li>
+        <li><a href="comp_longitud.py" class="button">comp_longitud.py: Comparación de Tamaños de Archivos</a></li>
+        <li><a href="estudio2.py" class="button">estudio2.py: Montaje en DataFrame y Análisis ML</a></li>
     </ul>
+</section>
 
+<section id="estructura" class="container">
     <h2>Estructura del Repositorio</h2>
     <p>El repositorio incluye datos, scripts de análisis y documentos de resultados, organizados en carpetas específicas.</p>
+</section>
 
+<section id="configuracion" class="container">
     <h2>Configuración del Entorno</h2>
-    <p>Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias.</p>
-    <code>
-        python -m venv venv<br>
-        source .venv/bin/activate<br>
-        pip install -r requirements.txt
-    </code>
+    <p>Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias
+                <p>Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias listadas en requirements.txt para replicar el análisis de datos.</p>
+        <code>
+            python -m venv venv<br>
+            source venv/bin/activate<br>
+            pip install -r requirements.txt
+        </code>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2024 TRABAJO EN PYTHON GRUPO 4, ML SUPERVISADO Y NO SUPERVISADO. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
