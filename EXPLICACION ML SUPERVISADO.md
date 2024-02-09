@@ -70,7 +70,3 @@ El árbol de decisión produjo los siguientes resultados en el conjunto de datos
 - Sensibilidad: 0.9792
 - Especificidad: 0.9792
 - Puntuación F1: 0.9792
-
----
-
-Estos resultados muestran el desempeño de cada modelo en la clasificación de casos basada en la expresión génica. Cada método mostró una alta precisión y rendimiento en la clasificación de las muestras, lo que indica su eficacia en la predicción de clases en nuestro conjunto de datos.
