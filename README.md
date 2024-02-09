@@ -28,6 +28,7 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 - `EXPLICACION ML SUPERVISADO.md`: Explicación de los métodos utilizados, y análisis de resultados obtenidos.
 - `Explicaci Métodos no supervisa.html`: Explicación de los métodos utilizados con los gráficos obtenidos en cada estudio, y análisis de resultados.
 - `resultado anal de clusteres.html`: Explicación de los métodos Análisis de Clústeres usados, con los gráficos obtenidos.
+- `analisis_modelos_supervisados_y_resultados.html`: Informe de los resultados obtenidos en estudio ML Supervisado.
 
 ## Configuración del Entorno
 Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias listadas en `requirements.txt`.
