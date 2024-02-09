@@ -1,23 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados de Análisis de Clústeres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            padding: 5px 0;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Resultados de Análisis de Clústeres</h1>
+<div class="container">
+    <h1>Resultados de Análisis de Clústeres</h1>
 
-<h2>PCA Resultados con Clusters K-Means</h2>
-<img src="mi_PCA.png" alt="PCA Resultados con Clusters K-Means">
+    <section>
+        <h2>PCA Resultados con Clusters K-Means</h2>
+        <img src="mi_PCA.png" alt="PCA Resultados con Clusters K-Means">
+    </section>
 
-<h2>t-SNE Resultados con Clusters K-Means</h2>
-<img src="mi_t-SNE.png" alt="t-SNE Resultados con Clusters K-Means">
+    <section>
+        <h2>t-SNE Resultados con Clusters K-Means</h2>
+        <img src="mi_t-SNE.png" alt="t-SNE Resultados con Clusters K-Means">
+    </section>
 
-<h2>Clústeres K-Means en PCA reducido</h2>
-<img src="mi_PCAreduc.png" alt="Clústeres K-Means en PCA reducido">
+    <section>
+        <h2>Clústeres K-Means en PCA reducido</h2>
+        <img src="mi_PCAreduc.png" alt="Clústeres K-Means en PCA reducido">
+    </section>
 
-<h2>Clústeres Jerárquicos Aglomerativos en PCA 2 reducido</h2>
-<img src="mi_PCA2reduc.png" alt="Clústeres Jerárquicos Aglomerativos en PCA 2 reducido">
+    <section>
+        <h2>Clústeres Jerárquicos Aglomerativos en PCA 2 reducido</h2>
+        <img src="mi_PCA2reduc.png" alt="Clústeres Jerárquicos Aglomerativos en PCA 2 reducido">
+    </section>
+
+    <footer>
+        <p>Proyecto Grupo 4 - Análisis de Datos Biológicos con Machine Learning</p>
+    </footer>
+</div>
 
 </body>
 </html>
