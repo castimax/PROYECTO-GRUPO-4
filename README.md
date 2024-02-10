@@ -30,6 +30,9 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 - `resultado anal de clusteres.html`: Explicación de los métodos Análisis de Clústeres usados, con los gráficos obtenidos.
 - `analisis_modelos_supervisados_y_resultados.html`: Informe de los resultados obtenidos en estudio ML Supervisado.
 
+## DOCUMENTOS DE CONCLUSIONES DEL ESTUDIO
+- `CONCLUSIONES.html`: Conclusiones generales del trabajo.
+
 ## Configuración del Entorno
 Se recomienda crear un entorno virtual de Python e instalar las dependencias necesarias listadas en `requirements.txt`.
 
