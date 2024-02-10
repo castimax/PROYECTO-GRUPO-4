@@ -16,6 +16,7 @@ Este proyecto se centra en el análisis de un conjunto de datos biológicos util
 - `VIDEOS MÉTODOS/`: Carpeta con presentación en vídeo de gráficos obtenidos en los estudio de ML no supervisados.
 - `README.md`: Información general sobre el proyecto, estructura, y guía de inicio.
 - `LICENSE`: Detalles de la licencia del proyecto.
+- `index.html`: Carga el repositorio en formato GitHube pages, https://castimax.github.io/PROYECTO-GRUPO-4/ . Con los datos fundamentales del trabajo.
 
 ## SCRIPTS DE ANÁLISIS DE DATOS
 
